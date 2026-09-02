@@ -55,6 +55,8 @@ KeyScan 是本地优先的数据安全工具箱，**不需要注册账号、不�
 
 ## 隐私政策
 
+开源代码：[KeyScan Android](https://github.com/tinyproductlab/keyscan-android)
+
 我们认真对待您的数据：[KeyScan 用户协议与隐私政策](https://keyscan.tinylabpro.com/KeyScan-privacy-policy.html)（中英双语）
 
 ## 联系与反馈
