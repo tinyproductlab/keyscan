@@ -59,7 +59,7 @@ KeyScan 是本地优先的数据安全工具箱，**不需要注册账号、不�
 
 ## 联系与反馈
 
-- 产品主页：[avatartulkun.github.io/keyscan](https://keyscan.tinylabpro.com)
+- 产品主页：[keyscan.tinylabpro.com](https://keyscan.tinylabpro.com)
 - Telegram 群组：[KeyScan Users](https://t.me/keyScanUsers)
 - 联系邮箱：keyscan.feedback@zohomail.com
 
