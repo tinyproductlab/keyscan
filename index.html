@@ -183,6 +183,14 @@
   .wechat .wechat-name { color: #fff; font-weight: 700; font-size: 15px; }
   .wechat .wechat-tip { color: rgba(255,255,255,.6); font-size: 13px; }
 
+  /* 赞赏 */
+  .support { margin: 4px auto 30px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.14); max-width: 480px; }
+  .support-title { color: #fff; font-weight: 700; font-size: 16px; }
+  .support-tip { color: rgba(255,255,255,.6); font-size: 13px; margin: 5px 0 16px; }
+  .support-codes { display: flex; justify-content: center; gap: 18px; }
+  .support-codes a { display: flex; flex-direction: column; align-items: center; gap: 7px; color: rgba(255,255,255,.78); font-size: 12px; font-weight: 600; border: 0; }
+  .support-codes img { width: 102px; height: 102px; border-radius: 12px; padding: 4px; background: #fff; }
+
   /* Copy toast */
   #copy-tip {
     position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%);
@@ -334,6 +342,11 @@
         <img src="assets/wechat-qr.jpg" alt="小产品实验室 微信公众号二维码" loading="lazy">
         <span class="wechat-name">小产品实验室</span>
         <span class="wechat-tip" data-zh="微信扫码关注，获取更新与使用技巧" data-en="Scan on WeChat to follow for updates and tips">微信扫码关注，获取更新与使用技巧</span>
+      </div>
+      <div class="support">
+        <p class="support-title" data-zh="请开发者喝杯咖啡" data-en="Buy the developer a coffee">请开发者喝杯咖啡</p>
+        <p class="support-tip" data-zh="KeyScan 免费使用。喜欢它的话，欢迎扫码赞赏；点击可查看大图。" data-en="KeyScan is free to use. If it helps, you can scan to support the project; click to enlarge.">KeyScan 免费使用。喜欢它的话，欢迎扫码赞赏；点击可查看大图。</p>
+        <div class="support-codes"><a href="assets/support-wechat.png" target="_blank" rel="noreferrer"><img src="assets/support-wechat.png" alt="微信赞赏码" loading="lazy"><span data-zh="微信赞赏" data-en="WeChat">微信赞赏</span></a><a href="assets/support-alipay.png" target="_blank" rel="noreferrer"><img src="assets/support-alipay.png" alt="支付宝赞赏码" loading="lazy"><span data-zh="支付宝赞赏" data-en="Alipay">支付宝赞赏</span></a></div>
       </div>
       <div class="links">
         <a href="https://keyscan.tinylabpro.com/KeyScan-privacy-policy.html" data-zh="隐私政策" data-en="Privacy Policy">隐私政策</a>
