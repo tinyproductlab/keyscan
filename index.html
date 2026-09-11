@@ -9,6 +9,10 @@
 <meta property="og:description" content="本地优先、纯离线可用的数据安全工具箱：密码账本、TOTP 认证器、安全保险箱、自动填充与加密备份。">
 <meta property="og:url" content="https://keyscan.tinylabpro.com/">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://keyscan.tinylabpro.com/assets/keyscan-icon-512.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KeyScan — 本地优先的密码管理与 OTP 认证器">
+<meta name="twitter:description" content="KeyScan：本地优先、纯离线可用的密码管理与 OTP 认证器。密码账本、TOTP 动态验证码、安全保险箱、自动填充与端到端加密备份。">
 <meta name="description" content="KeyScan：本地优先、纯离线可用的密码管理与 OTP 认证器。密码账本、TOTP 动态验证码、安全保险箱、自动填充与端到端加密备份。">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -282,6 +286,48 @@
     .hero-carousel { max-width: 210px; }
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "name": "KeyScan — 密码管理与 OTP 认证器",
+      "url": "https://keyscan.tinylabpro.com/",
+      "description": "本地优先、纯离线可用的密码管理与 OTP 认证器，包含密码账本、TOTP 动态验证码、安全保险箱、自动填充与端到端加密备份。",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Android, iOS, Windows, macOS",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"},
+      "publisher": {"@type": "Organization", "name": "小产品实验室"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KeyScan 需要注册账号吗？",
+          "acceptedAnswer": {"@type": "Answer", "text": "不需要。KeyScan 是本地优先的密码管理与 OTP 工具，不要求注册账号，所有密码和 OTP 密钥默认保存在你的设备本地。"}
+        },
+        {
+          "@type": "Question",
+          "name": "KeyScan 的数据会上传到服务器吗？",
+          "acceptedAnswer": {"@type": "Answer", "text": "不会。所有密码、OTP 密钥和保险箱资料都在本地加密存储。WebDAV 备份也是加密后上传到你自己选择的存储服务，开发者无法访问。"}
+        },
+        {
+          "@type": "Question",
+          "name": "KeyScan 支持哪些平台？",
+          "acceptedAnswer": {"@type": "Answer", "text": "KeyScan 支持 Android、iOS（开发中）、Windows 和 macOS。桌面版免费开源，可与手机端通过局域网或二维码互传数据。"}
+        },
+        {
+          "@type": "Question",
+          "name": "忘记数据保护密钥怎么办？",
+          "acceptedAnswer": {"@type": "Answer", "text": "KeyScan 无法找回遗失的数据保护密钥。请务必妥善保管密钥，并定期创建加密备份。这是本地优先设计的代价——数据完全由你掌控。"}
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -296,8 +342,8 @@
   <header class="hero">
     <div class="container hero-inner">
       <div class="hero-text">
-        <img class="logo" src="assets/keyscan-icon-512.png" alt="KeyScan">
-        <h1>KeyScan</h1>
+        <img class="logo" src="assets/keyscan-icon-512.png" alt="KeyScan" width="96" height="96">
+        <h1>KeyScan · 密码管理与 OTP 认证器</h1>
         <p class="tagline" data-zh="本地优先 · 纯离线可用 · 数据自主掌控" data-en="Local-first · Fully offline · Your data, your control">本地优先 · 纯离线可用 · 数据自主掌控</p>
         <p class="sub" data-zh="智能扫描 · 密码账本 · TOTP 认证器 · 安全保险箱 · 自动填充 · 加密备份" data-en="Smart Scan · Password Ledger · TOTP · Secure Vault · Autofill · Encrypted Backup">智能扫描 · 密码账本 · TOTP 认证器 · 安全保险箱 · 自动填充 · 加密备份</p>
         <div class="cta">
@@ -318,18 +364,18 @@
 
   <section>
     <div class="container">
-      <h2 class="section-title" data-zh="产品展示" data-en="Product Showcase">产品展示</h2>
+      <h2 class="section-title" data-zh="密码管理 OTP 工具展示" data-en="Password Manager & OTP Showcase">密码管理 OTP 工具展示</h2>
       <p class="section-desc" data-zh="一个应用，管理您的数字安全" data-en="One app for your digital security">一个应用，管理您的数字安全</p>
       <div class="banner-grid">
-        <img src="assets/banner-2.png" alt="KeyScan banner 1">
-        <img src="assets/banner-5.png" alt="KeyScan banner 2">
+        <img src="assets/banner-2.png" alt="KeyScan banner 1" width="800" height="450">
+        <img src="assets/banner-5.png" alt="KeyScan banner 2" width="800" height="450">
       </div>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <h2 class="section-title" data-zh="一个应用，管理您的数字安全" data-en="One app to manage your digital security">一个应用，管理您的数字安全</h2>
+      <h2 class="section-title" data-zh="密码管理与 OTP 认证的核心功能" data-en="Core features for password management & OTP">密码管理与 OTP 认证的核心功能</h2>
       <p class="section-desc" data-zh="不需要注册账号，不依赖开发者服务器，核心功能纯离线可用" data-en="No account required, no developer servers, core features work fully offline">不需要注册账号，不依赖开发者服务器，核心功能纯离线可用</p>
       <div class="grid">
         <div class="card"><div class="icon">📷</div><h3 data-zh="智能扫描" data-en="Smart Scan">智能扫描</h3><p data-zh="二维码、条形码、文字识别（OCR）一次完成，自动识别内容类型并给出后续动作。" data-en="Scan QR codes, barcodes and text (OCR) in one step, with automatic content type detection.">二维码、条形码、文字识别（OCR）一次完成，自动识别内容类型并给出后续动作。</p></div>
@@ -412,10 +458,53 @@
     </div>
   </section>
 
+  <section style="background: #fff; border-top: 1px solid var(--border);">
+    <div class="container" style="max-width: 860px; padding: 48px 22px;">
+      <h2 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 14px; color: var(--ink);">KeyScan 密码管理与 OTP 认证器</h2>
+      <p>KeyScan 是一款本地优先的密码管理与 OTP 认证工具，帮助你在手机和电脑上安全地管理账号密码、TOTP 动态验证码、证件资料和敏感信息。与传统依赖云端账号的密码管理器不同，KeyScan 不要求注册账号，所有数据默认保存在本地设备中，通过 AES-GCM 加密存储，只有你自己可以访问。</p>
+
+      <h3 style="font-size: 1.2rem; font-weight: 700; margin: 24px 0 10px; color: var(--ink);">密码管理功能</h3>
+      <p>KeyScan 的密码账本支持账号密码的加密保存、分组管理、排序和过期提醒。你可以从 Bitwarden 等主流密码管理器导入数据，也可以导出为通用格式。随机密码生成器可以创建符合各种安全策略的强密码。桌面版还提供浏览器扩展，在登录页面自动填充账号密码，每次填充都需要在桌面端确认，保险箱锁定时不会返回任何密码。</p>
+
+      <h3 style="font-size: 1.2rem; font-weight: 700; margin: 24px 0 10px; color: var(--ink);">OTP 动态验证码</h3>
+      <p>内置 TOTP 认证器，支持批量导入 OTP 密钥，在登录页面自动显示 OTP 候选验证码，一步到位完成两步验证。OTP 密钥与密码一样在本地加密保存，不会上传到任何服务器。支持 Android Keystore 和 iOS Keychain 保护密钥，配合指纹、Face ID 或 Touch ID 解锁。</p>
+
+      <h3 style="font-size: 1.2rem; font-weight: 700; margin: 24px 0 10px; color: var(--ink);">本地优先与数据自主</h3>
+      <p>KeyScan 坚持「无需账号、无需强制订阅、不绑定官方云端」的设计理念。你可以选择免费的 WebDAV 服务或自己的家庭 NAS 进行加密备份，两个独立备份位置互为冗余。桌面端和浏览器扩展的源码完全开放，可自行审阅与构建。敏感内容复制后会自动清除剪贴板，支持自动锁定和安全窗口，防止旁人窥视。</p>
+
+      <h3 style="font-size: 1.2rem; font-weight: 700; margin: 24px 0 10px; color: var(--ink);">常见问题</h3>
+      <details style="margin-bottom: 10px;">
+        <summary style="cursor: pointer; font-weight: 600; color: var(--ink);">KeyScan 需要注册账号吗？</summary>
+        <p style="margin-top: 8px; color: var(--ink-soft);">不需要。KeyScan 是本地优先的密码管理与 OTP 工具，所有数据默认保存在设备本地，不依赖开发者服务器。</p>
+      </details>
+      <details style="margin-bottom: 10px;">
+        <summary style="cursor: pointer; font-weight: 600; color: var(--ink);">数据会上传到服务器吗？</summary>
+        <p style="margin-top: 8px; color: var(--ink-soft);">不会。密码和 OTP 密钥在本地 AES-GCM 加密存储。WebDAV 备份也是加密后上传到你自己选择的存储服务。</p>
+      </details>
+      <details style="margin-bottom: 10px;">
+        <summary style="cursor: pointer; font-weight: 600; color: var(--ink);">支持哪些平台？</summary>
+        <p style="margin-top: 8px; color: var(--ink-soft);">支持 Android、iOS（开发中）、Windows 和 macOS。桌面版免费开源，可与手机端通过局域网或二维码互传数据。</p>
+      </details>
+      <details style="margin-bottom: 10px;">
+        <summary style="cursor: pointer; font-weight: 600; color: var(--ink);">忘记数据保护密钥怎么办？</summary>
+        <p style="margin-top: 8px; color: var(--ink-soft);">KeyScan 无法找回遗失的密钥。请妥善保管并定期创建加密备份，这是本地优先设计的代价。</p>
+      </details>
+
+      <h3 style="font-size: 1.2rem; font-weight: 700; margin: 24px 0 10px; color: var(--ink);">来自小产品实验室的更多工具</h3>
+      <p style="color: var(--ink-soft);">KeyScan 是小产品实验室出品的安全工具。你可能还需要这些：</p>
+      <ul style="margin: 10px 0 10px 22px; color: var(--ink-soft);">
+        <li><a href="https://tinylabpro.com/" style="color: var(--primary);">小产品实验室 · 全部工具</a></li>
+        <li><a href="https://otp.tinylabpro.com/" style="color: var(--primary);">Tiny OTP · 轻量 OTP 动态验证码工具</a></li>
+        <li><a href="https://unmark.tinylabpro.com/" style="color: var(--primary);">Unmark · NotebookLM 去水印</a></li>
+        <li><a href="https://survey.tinylabpro.com/" style="color: var(--primary);">加密调查问卷 · 端到端加密的在线问卷</a></li>
+      </ul>
+    </div>
+  </section>
+
   <footer>
     <div class="container">
       <div class="wechat">
-        <img src="assets/wechat-qr.jpg" alt="小产品实验室 微信公众号二维码" loading="lazy">
+        <img src="assets/wechat-qr.jpg" alt="小产品实验室 微信公众号二维码" width="132" height="132" loading="lazy">
         <span class="wechat-name">小产品实验室</span>
         <span class="wechat-tip" data-zh="微信扫码关注，获取更新与使用技巧" data-en="Scan on WeChat to follow for updates and tips">微信扫码关注，获取更新与使用技巧</span>
       </div>
