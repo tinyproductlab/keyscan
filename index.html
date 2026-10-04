@@ -154,17 +154,8 @@
   .btn-primary { background: #fff; color: var(--primary-dark); box-shadow: 0 6px 20px rgba(0,0,0,.25); }
   .btn-ghost { border: 1.5px solid rgba(255,255,255,.5); color: #fff; }
   .btn:hover { transform: translateY(-2px); }
-  /* 未上线的商店按钮：看得见但不可点 */
-  .btn-soon {
-    border: 1.5px solid rgba(255,255,255,.35); color: rgba(255,255,255,.72);
-    cursor: default; position: relative;
-  }
-  .btn-soon:hover { transform: none; }
-  .btn-soon .soon-tag {
-    font-size: 11px; font-weight: 700; letter-spacing: .3px;
-    padding: 3px 9px; border-radius: 999px;
-    background: rgba(255,255,255,.16); color: rgba(255,255,255,.9);
-  }
+  .hero .store-note { margin-top: 16px; font-size: 14px; color: rgba(255,255,255,.88); }
+  .hero .store-note a { color: inherit; text-underline-offset: 3px; }
 
   /* Hero carousel (截图轮播) */
   .hero-carousel { position: relative; max-width: 252px; width: 100%; margin: 0 auto; }
@@ -297,6 +288,7 @@
       "description": "本地优先、纯离线可用的密码管理与 OTP 认证器，包含密码账本、TOTP 动态验证码、安全保险箱、自动填充与端到端加密备份。",
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "Android, iOS, Windows, macOS",
+      "downloadUrl": ["https://play.google.com/store/apps/details?id=com.keyscan.app", "https://apps.apple.com/cn/app/keyscan-%E5%AF%86%E7%A0%81%E8%AF%81%E4%BB%B6%E7%AE%A1%E5%AE%B6%E4%B8%8E-totp/id6805487637"],
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"},
       "publisher": {"@type": "Organization", "name": "小产品实验室"}
     },
@@ -316,7 +308,7 @@
         {
           "@type": "Question",
           "name": "KeyScan 支持哪些平台？",
-          "acceptedAnswer": {"@type": "Answer", "text": "KeyScan 支持 Android、iOS（开发中）、Windows 和 macOS。桌面版免费开源，可与手机端通过局域网或二维码互传数据。"}
+          "acceptedAnswer": {"@type": "Answer", "text": "KeyScan 支持 Android、iOS、Windows 和 macOS。iOS 版已在 App Store 上架，名称为“KeyScan 密码证件管家与 TOTP”。桌面版免费开源。"}
         },
         {
           "@type": "Question",
@@ -348,10 +340,11 @@
         <p class="sub" data-zh="智能扫描 · 密码账本 · TOTP 认证器 · 安全保险箱 · 自动填充 · 加密备份" data-en="Smart Scan · Password Ledger · TOTP · Secure Vault · Autofill · Encrypted Backup">智能扫描 · 密码账本 · TOTP 认证器 · 安全保险箱 · 自动填充 · 加密备份</p>
         <div class="cta">
           <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.keyscan.app"><span data-zh="从 Google Play 下载" data-en="Download from Google Play">从 Google Play 下载</span></a>
-          <span class="btn btn-soon"><span data-zh="从 App Store 下载" data-en="Download on the App Store">从 App Store 下载</span><span class="soon-tag" data-zh="敬请期待" data-en="Coming soon">敬请期待</span></span>
+          <a class="btn btn-primary" href="https://apps.apple.com/cn/app/keyscan-%E5%AF%86%E7%A0%81%E8%AF%81%E4%BB%B6%E7%AE%A1%E5%AE%B6%E4%B8%8E-totp/id6805487637"><span data-zh="从 App Store 下载" data-en="Download on the App Store">从 App Store 下载</span></a>
           <a class="btn btn-ghost" href="https://github.com/tinyproductlab/keyscan-desktop"><span data-zh="桌面版（Windows / macOS）" data-en="Desktop (Windows / macOS)">桌面版（Windows / macOS）</span></a>
           <a class="btn btn-ghost" href="https://github.com/tinyproductlab/keyscan-android"><span data-zh="开源地址" data-en="Open-source link">开源地址</span></a>
         </div>
+        <p class="store-note"><span data-zh="iOS 版已上架：" data-en="Now on the App Store: ">iOS 版已上架：</span><a href="https://apps.apple.com/cn/app/keyscan-%E5%AF%86%E7%A0%81%E8%AF%81%E4%BB%B6%E7%AE%A1%E5%AE%B6%E4%B8%8E-totp/id6805487637">KeyScan 密码证件管家与 TOTP</a></p>
       </div>
       <div class="hero-carousel">
         <div class="phone-frame">
@@ -483,7 +476,7 @@
       </details>
       <details style="margin-bottom: 10px;">
         <summary style="cursor: pointer; font-weight: 600; color: var(--ink);">支持哪些平台？</summary>
-        <p style="margin-top: 8px; color: var(--ink-soft);">支持 Android、iOS（开发中）、Windows 和 macOS。桌面版免费开源，可与手机端通过局域网或二维码互传数据。</p>
+        <p style="margin-top: 8px; color: var(--ink-soft);" data-zh="KeyScan 支持 Android、iOS、Windows 和 macOS。iOS 版已在 App Store 上架，名称为“KeyScan 密码证件管家与 TOTP”。桌面版免费开源。" data-en="KeyScan supports Android, iOS, Windows and macOS. The iOS app is now available on the App Store as “KeyScan 密码证件管家与 TOTP”. The desktop version is free and open source.">KeyScan 支持 Android、iOS、Windows 和 macOS。iOS 版已在 App Store 上架，名称为“KeyScan 密码证件管家与 TOTP”。桌面版免费开源。</p>
       </details>
       <details style="margin-bottom: 10px;">
         <summary style="cursor: pointer; font-weight: 600; color: var(--ink);">忘记数据保护密钥怎么办？</summary>

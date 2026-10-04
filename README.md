@@ -51,7 +51,7 @@ KeyScan 是本地优先的数据安全工具箱，**不需要注册账号、不�
 | 平台 | 状态 | 链接 |
 |---|---|---|
 | Android | 内部测试中 | [Google Play](https://play.google.com/) |
-| iOS | 开发中 | 敬请期待 |
+| iOS | 已上架 App Store | [KeyScan 密码证件管家与 TOTP](https://apps.apple.com/cn/app/keyscan-%E5%AF%86%E7%A0%81%E8%AF%81%E4%BB%B6%E7%AE%A1%E5%AE%B6%E4%B8%8E-totp/id6805487637) |
 
 ## 隐私政策
 
